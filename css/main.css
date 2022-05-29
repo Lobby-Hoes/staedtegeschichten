@@ -1,0 +1,13 @@
+#title {
+  height: 5vh;
+  text-align: center;
+}
+
+#map {
+  height: 95vh;
+}
+
+.leaflet-popup-content {
+  min-width: 325px;
+}
+

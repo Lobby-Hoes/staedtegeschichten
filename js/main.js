@@ -25,6 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
+
+  let southWest = new L.LatLng(47.2, 6.1),
+    northEast = new L.LatLng(54.7, 14.8),
+    bounds = new L.LatLngBounds(southWest, northEast);
+  map.fitBounds(bounds);
 });
 
 

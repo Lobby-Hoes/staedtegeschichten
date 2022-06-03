@@ -2,7 +2,7 @@ dayjs.extend(window.dayjs_plugin_duration);
 dayjs.extend(window.dayjs_plugin_customParseFormat);
 
 document.addEventListener("DOMContentLoaded", () => {
-  let host = "http://data.hobbylos.online/";
+  let host = "https://data.hobbylos.online/graphql";
   var map = L.map('map').setView([51.3, 10.5], 7);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,

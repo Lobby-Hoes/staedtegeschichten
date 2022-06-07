@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }).addTo(map);
 
   fetch(host, {
-    body: '{"query":"query GetAllStaedtegeschichten { staedtegeschichten { folge folgenname code startzeit endzeit titel ort typ geo geschichte}}"}',
+    body: '{"query":"query GetAllStaedtegeschichten { staedtegeschichten { folge { folgenId folgenname code } startzeit endzeit geschichten { titel ort typ geo geschichte } } }"}',
     headers: {
       "Content-Type": "application/json"
     },

@@ -1,7 +1,9 @@
 #title {
-  height: 5vh;
-  text-align: center;
-  margin: 0;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  min-width: 50vw;
+
 }
 
 #map {

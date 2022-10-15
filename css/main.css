@@ -1,13 +1,17 @@
+body {
+  margin: 0;
+}
+
 #title {
   margin: auto;
   display: block;
   max-width: 100%;
   min-width: 50vw;
-
+  height: 10vh;
 }
 
 #map {
-  height: 95vh;
+  height: 90vh;
 }
 
 .leaflet-popup-content {
